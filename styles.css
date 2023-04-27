@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE8E8;
+}
+
+form{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    font-family: 'FiraGO', sans-serif;
+}
+
+input{
+    width: 66%;
+    height: 10%;
+    border: none;
+    padding-left: 12px;
+    font-family: 'FiraGO', sans-serif;
+}
+
+::placeholder{
+    color: black;
+}
+
+.firstBtn{
+    width: 9vw;
+    height: 6%;
+    border: none;
+    cursor: pointer;
+    font-family: 'FiraGO', sans-serif;
+}
+
+.other-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;
+}
+
+.top-options{
+    display: flex;
+    gap: 75px;
+}
+
+.top-options > button{
+    width: 9vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.top-options > button > img {
+    height: 70%;
+    margin-right: 10px;
+}
+
+.other-options > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'FiraGO', sans-serif;
+    font-size: 16px;
+}
